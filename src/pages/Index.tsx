@@ -32,7 +32,7 @@ const GALLERY = [
 ];
 
 const REVIEWS = [
-  { name: 'Мама Софии', text: 'Анна Викторовна — настоящий волшебник! Дочка бежит в садик с улыбкой каждое утро.', emoji: '🌸' },
+  { name: 'Мама Софии', text: 'Ирина Валерьевна — настоящий волшебник! Дочка бежит в садик с улыбкой каждое утро.', emoji: '🌸' },
   { name: 'Родители Миши', text: 'За год сын так изменился: стал общительным, рассказывает стихи. Огромное спасибо!', emoji: '⭐' },
   { name: 'Мама Кирилла', text: 'Тёплая атмосфера и забота чувствуются во всём. Спокойны за ребёнка полностью.', emoji: '💛' },
 ];
@@ -52,7 +52,7 @@ const Index = () => {
         <div className="container mx-auto flex items-center justify-between py-4 px-4">
           <button onClick={() => scrollTo('hero')} className="flex items-center gap-2">
             <span className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-xl">🐻</span>
-            <span className="font-display font-bold text-lg">Анна Петрова</span>
+            <span className="font-display font-bold text-lg">Ирина Лычагина</span>
           </button>
           <nav className="hidden md:flex items-center gap-1">
             {NAV.map((n) => (
@@ -89,7 +89,7 @@ const Index = () => {
               Дарю детям <span className="text-primary">тепло</span> и радость открытий
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-md">
-              Меня зовут Анна, я воспитатель детского сада. Создаю уютную атмосферу, где каждый малыш растёт счастливым и любознательным.
+              Меня зовут Ирина Валерьевна, я воспитатель детского сада. Создаю уютную атмосферу, где каждый малыш растёт счастливым и любознательным.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" onClick={() => scrollTo('gallery')} className="rounded-full text-base font-bold px-8 py-3 soft-shadow">
@@ -241,7 +241,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-2 mb-3">
             <span className="w-9 h-9 rounded-full bg-primary flex items-center justify-center">🐻</span>
-            <span className="font-display font-bold">Анна Петрова</span>
+            <span className="font-display font-bold">Ирина Лычагина</span>
           </div>
           <p className="text-sm text-muted-foreground">С заботой о каждом ребёнке • {new Date().getFullYear()}</p>
         </div>
